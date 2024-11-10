@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["./libs/algos/src/lib/index.ts"],
+  "plugin": ["typedoc-plugin-markdown"],
+  "out": "docs",
+  "tsconfig": "libs/algos/tsconfig.json",
+  "name": "@algos/libs"
+}

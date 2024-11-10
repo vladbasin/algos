@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["./src/lib/index.ts"],
+  "out": "docs",
+  "theme": "markdown",
+  "tsconfig": "tsconfig.json"
+}
