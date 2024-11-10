@@ -25,4 +25,4 @@ All unique permutations of the input array.
 
 ## Defined in
 
-[algorithms/combinatorics/generateUniquePermutations.ts:7](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/algorithms/combinatorics/generateUniquePermutations.ts#lines-7)
+[algorithms/combinatorics/generateUniquePermutations.ts:7](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/combinatorics/generateUniquePermutations.ts#L7)

@@ -43,7 +43,7 @@ The word to be added to the Trie.
 
 #### Defined in
 
-[dataStructures/Trie.ts:15](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Trie.ts#lines-15)
+[dataStructures/Trie.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Trie.ts#L15)
 
 ***
 
@@ -75,7 +75,7 @@ The search mode: 'prefix' checks if the text is a prefix, 'complete' checks for 
 
 #### Defined in
 
-[dataStructures/Trie.ts:38](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Trie.ts#lines-38)
+[dataStructures/Trie.ts:38](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Trie.ts#L38)
 
 ***
 
@@ -102,4 +102,4 @@ The word to be removed from the Trie.
 
 #### Defined in
 
-[dataStructures/Trie.ts:68](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Trie.ts#lines-68)
+[dataStructures/Trie.ts:68](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Trie.ts#L68)

@@ -26,7 +26,7 @@ The size of the set.
 
 #### Defined in
 
-[dataStructures/DisjointSet.ts:8](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/DisjointSet.ts#lines-8)
+[dataStructures/DisjointSet.ts:8](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L8)
 
 ## Methods
 
@@ -54,7 +54,7 @@ True if the elements are in the same set, false otherwise.
 
 #### Defined in
 
-[dataStructures/DisjointSet.ts:26](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/DisjointSet.ts#lines-26)
+[dataStructures/DisjointSet.ts:26](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L26)
 
 ***
 
@@ -80,4 +80,4 @@ The second element.
 
 #### Defined in
 
-[dataStructures/DisjointSet.ts:35](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/DisjointSet.ts#lines-35)
+[dataStructures/DisjointSet.ts:35](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L35)

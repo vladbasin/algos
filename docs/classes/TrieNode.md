@@ -37,7 +37,7 @@ A reference to the parent node, or undefined if this node is the root.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-13)
+[dataStructures/TrieNode.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L13)
 
 ## Properties
 
@@ -49,7 +49,7 @@ A flag indicating whether this node completes a word.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-13)
+[dataStructures/TrieNode.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L13)
 
 ***
 
@@ -61,7 +61,7 @@ A reference to the parent node, or undefined if this node is the root.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-13)
+[dataStructures/TrieNode.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L13)
 
 ***
 
@@ -73,7 +73,7 @@ The text fragment stored in this node.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-13)
+[dataStructures/TrieNode.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L13)
 
 ## Methods
 
@@ -97,7 +97,7 @@ The text of the child node to retrieve.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:69](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-69)
+[dataStructures/TrieNode.ts:69](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L69)
 
 ***
 
@@ -125,7 +125,7 @@ A function that creates a new TrieNode if the child doesn't exist.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:80](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-80)
+[dataStructures/TrieNode.ts:80](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L80)
 
 ***
 
@@ -143,7 +143,7 @@ Checks if this node has any children.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:30](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-30)
+[dataStructures/TrieNode.ts:30](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L30)
 
 ***
 
@@ -167,7 +167,7 @@ The text of the child node to check for.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:21](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-21)
+[dataStructures/TrieNode.ts:21](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L21)
 
 ***
 
@@ -189,7 +189,7 @@ The text of the child node to remove.
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:40](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-40)
+[dataStructures/TrieNode.ts:40](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L40)
 
 ***
 
@@ -209,4 +209,4 @@ Removes this node from its parent. Throws an error if this node does not have a 
 
 #### Defined in
 
-[dataStructures/TrieNode.ts:55](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/TrieNode.ts#lines-55)
+[dataStructures/TrieNode.ts:55](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/TrieNode.ts#L55)

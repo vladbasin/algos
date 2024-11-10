@@ -33,7 +33,7 @@ Specifies the type of heap ('min' for min-heap, 'max' for max-heap).
 
 #### Defined in
 
-[dataStructures/Heap.ts:15](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Heap.ts#lines-15)
+[dataStructures/Heap.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L15)
 
 ## Accessors
 
@@ -51,7 +51,7 @@ Returns the number of elements in the heap.
 
 #### Defined in
 
-[dataStructures/Heap.ts:61](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Heap.ts#lines-61)
+[dataStructures/Heap.ts:61](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L61)
 
 ## Methods
 
@@ -73,7 +73,7 @@ The entry to be added to the heap.
 
 #### Defined in
 
-[dataStructures/Heap.ts:23](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Heap.ts#lines-23)
+[dataStructures/Heap.ts:23](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L23)
 
 ***
 
@@ -92,7 +92,7 @@ without removing it from the heap.
 
 #### Defined in
 
-[dataStructures/Heap.ts:34](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Heap.ts#lines-34)
+[dataStructures/Heap.ts:34](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L34)
 
 ***
 
@@ -110,4 +110,4 @@ Removes and returns the root value of the heap (the minimum or maximum value) wh
 
 #### Defined in
 
-[dataStructures/Heap.ts:43](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/Heap.ts#lines-43)
+[dataStructures/Heap.ts:43](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L43)

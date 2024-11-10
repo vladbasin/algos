@@ -28,4 +28,4 @@ An array containing the shortest path distances to all vertices. If path does no
 
 ## Defined in
 
-[algorithms/graphs/calculateShortestPathsWithDijkstra.ts:10](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithDijkstra.ts#lines-10)
+[algorithms/graphs/calculateShortestPathsWithDijkstra.ts:10](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithDijkstra.ts#L10)

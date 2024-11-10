@@ -43,4 +43,4 @@ const sortedArray = quickSort([3, 1, 4, 1, 5, 9]);
 
 ## Defined in
 
-[algorithms/sorting/quickSort.ts:14](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/algorithms/sorting/quickSort.ts#lines-14)
+[algorithms/sorting/quickSort.ts:14](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/sorting/quickSort.ts#L14)

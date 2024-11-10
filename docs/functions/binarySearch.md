@@ -40,4 +40,4 @@ console.log(index); // Output: -1
 
 ## Defined in
 
-[algorithms/binarySearch.ts:16](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/algorithms/binarySearch.ts#lines-16)
+[algorithms/binarySearch.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/binarySearch.ts#L16)

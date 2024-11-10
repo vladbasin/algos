@@ -18,7 +18,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:12](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-12)
+[dataStructures/graphs/contracts/IGraph.ts:12](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L12)
 
 ## Methods
 
@@ -40,7 +40,7 @@ The edge to be added to the graph.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:20](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-20)
+[dataStructures/graphs/contracts/IGraph.ts:20](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L20)
 
 ***
 
@@ -62,7 +62,7 @@ The vertex to check.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:70](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-70)
+[dataStructures/graphs/contracts/IGraph.ts:70](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L70)
 
 ***
 
@@ -90,7 +90,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:29](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-29)
+[dataStructures/graphs/contracts/IGraph.ts:29](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L29)
 
 ***
 
@@ -118,7 +118,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:38](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-38)
+[dataStructures/graphs/contracts/IGraph.ts:38](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L38)
 
 ***
 
@@ -136,7 +136,7 @@ Returns an iterator for all edges in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:62](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-62)
+[dataStructures/graphs/contracts/IGraph.ts:62](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L62)
 
 ***
 
@@ -160,7 +160,7 @@ The vertex from which the edges originate.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:55](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-55)
+[dataStructures/graphs/contracts/IGraph.ts:55](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L55)
 
 ***
 
@@ -186,4 +186,4 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/IGraph.ts:47](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#lines-47)
+[dataStructures/graphs/contracts/IGraph.ts:47](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/IGraph.ts#L47)

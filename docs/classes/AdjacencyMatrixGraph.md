@@ -33,7 +33,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-13)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L13)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:24](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-24)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:24](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L24)
 
 ***
 
@@ -61,7 +61,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:13](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-13)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L13)
 
 ## Methods
 
@@ -91,7 +91,7 @@ The edge to be added, including the from vertex, to vertex, and weight.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:33](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-33)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:33](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L33)
 
 ***
 
@@ -121,7 +121,7 @@ The vertex to check.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:122](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-122)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:122](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L122)
 
 ***
 
@@ -157,7 +157,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:50](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-50)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:50](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L50)
 
 ***
 
@@ -193,7 +193,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:67](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-67)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:67](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L67)
 
 ***
 
@@ -215,7 +215,7 @@ Returns an iterator for all edges in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:109](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-109)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:109](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L109)
 
 ***
 
@@ -247,7 +247,7 @@ The vertex from which the edges originate.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:93](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-93)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:93](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L93)
 
 ***
 
@@ -281,4 +281,4 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyMatrixGraph.ts:79](https://bitbucket.org/vladbasin/algos/src/5a7ff036d2baf511556b0e58f1b60a1888b2ff2f/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#lines-79)
+[dataStructures/graphs/AdjacencyMatrixGraph.ts:79](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyMatrixGraph.ts#L79)
