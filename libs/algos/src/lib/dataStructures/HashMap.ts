@@ -7,14 +7,17 @@ type BucketElementType<TKey, TValue> = {
 };
 
 /**
- * Class representing a hash map, a data structure that allows for fast retrieval
- * of key-value pairs using a hash function. Uses separate chaining with linked lists to handle collisions.
+ * Generic HashMap implementation using separate chaining for collision resolution.
+ * Provides constant-time average case operations through efficient hashing.
+ *
+ * @template TKey - Type of keys in the hash map
+ * @template TValue - Type of values in the hash map
  */
 export class HashMap<TKey, TValue> {
   /**
-   * Creates a new HashMap instance with a specified capacity.
+   * Creates a new HashMap with specified capacity.
    *
-   * @param {number} _capacity - The initial number of buckets in the hash map.
+   * @param _capacity - Initial number of buckets
    */
   constructor(private _capacity: number) {
     this._items = new Array(_capacity).fill(1).map(() => new LinkedList<BucketElementType<TKey, TValue>>());
@@ -22,10 +25,8 @@ export class HashMap<TKey, TValue> {
 
   /**
    * Adds or updates a key-value pair in the hash map.
-   *
-   * @param {TKey} key - The key for the value.
-   * @param {TValue} value - The value to be stored in the hash map.
-   * @returns {void}
+   * @param key - The key for the entry
+   * @param value - The value to store
    */
   public put(key: TKey, value: TValue): void {
     const index = this.getIndex(key);
@@ -45,28 +46,28 @@ export class HashMap<TKey, TValue> {
   /**
    * Retrieves the value associated with a given key.
    *
-   * @param {TKey} key - The key to look up in the hash map.
-   * @returns {TValue | undefined} - The value if found, otherwise undefined.
+   * @param key - The key to look up
+   * @returns {TValue | undefined} The value if found, undefined otherwise
    */
   public get(key: TKey): TValue | undefined {
     return this.getElementWithIndex(key)?.element.value.value;
   }
 
   /**
-   * Checks if the hash map contains a specific key.
+   * Checks if a key exists in the hash map.
    *
-   * @param {TKey} key - The key to check for in the hash map.
-   * @returns {boolean} - True if the key exists, otherwise false.
+   * @param key - The key to check
+   * @returns {boolean} True if key exists, false otherwise
    */
   public has(key: TKey): boolean {
     return !!this.get(key);
   }
 
   /**
-   * Removes a key-value pair from the hash map by its key.
+   * Removes a key-value pair from the hash map.
    *
-   * @param {TKey} key - The key of the pair to remove.
-   * @returns {TValue | undefined} - The value of the removed key, or undefined if the key was not found.
+   * @param key - The key to remove
+   * @returns {TValue | undefined} The removed value if found, undefined otherwise
    */
   public remove(key: TKey): TValue | undefined {
     const elementWithIndex = this.getElementWithIndex(key);
@@ -81,6 +82,13 @@ export class HashMap<TKey, TValue> {
 
   private _items: LinkedList<BucketElementType<TKey, TValue>>[];
 
+  /**
+   * Gets the element and its bucket index for a given key.
+   *
+   * @param key - The key to look up
+   * @returns The element and its index if found, undefined otherwise
+   * @private
+   */
   private getElementWithIndex(
     key: TKey
   ): { element: LinkedListElementType<BucketElementType<TKey, TValue>>; index: number } | undefined {
@@ -96,6 +104,13 @@ export class HashMap<TKey, TValue> {
     return undefined;
   }
 
+  /**
+   * Computes the bucket index for a given key using string hashing.
+   *
+   * @param key - The key to hash
+   * @returns {number} The bucket index
+   * @private
+   */
   private getIndex(key: TKey): number {
     const stringKey = new String(key);
     let hash = 0;

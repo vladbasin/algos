@@ -8,21 +8,29 @@
 
 > **generateUniquePermutations**(`source`): `number`[][]
 
-Generate all unique permutations of a given set ignoring duplicates.
-Example: generateUniquePermutations([1, 1, 3], (a, b) => a === b) -> [[1, 1, 3], [1, 3, 1], [3, 1, 1]]
+Generates all unique permutations of a given array, ignoring duplicates.
+Uses backtracking with sorting to skip duplicate permutations.
 
 ## Parameters
 
 • **source**: `number`[]
 
-The input array.
+The input array to generate permutations from
 
 ## Returns
 
 `number`[][]
 
-All unique permutations of the input array.
+Array containing all unique permutations
+
+## Example
+
+```ts
+generateUniquePermutations([1, 1, 2]) // Returns [[1,1,2], [1,2,1], [2,1,1]]
+generateUniquePermutations([1, 2, 2]) // Returns [[1,2,2], [2,1,2], [2,2,1]]
+generateUniquePermutations([])        // Returns [[]]
+```
 
 ## Defined in
 
-[algorithms/combinatorics/generateUniquePermutations.ts:7](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/combinatorics/generateUniquePermutations.ts#L7)
+[algorithms/combinatorics/generateUniquePermutations.ts:12](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/combinatorics/generateUniquePermutations.ts#L12)

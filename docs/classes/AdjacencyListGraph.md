@@ -33,7 +33,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L15)
+[dataStructures/graphs/AdjacencyListGraph.ts:15](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L15)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:26](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L26)
+[dataStructures/graphs/AdjacencyListGraph.ts:26](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L26)
 
 ***
 
@@ -61,7 +61,7 @@ The number of vertices in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L15)
+[dataStructures/graphs/AdjacencyListGraph.ts:15](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L15)
 
 ## Methods
 
@@ -91,7 +91,7 @@ The edge to be added to the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:35](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L35)
+[dataStructures/graphs/AdjacencyListGraph.ts:35](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L35)
 
 ***
 
@@ -121,7 +121,7 @@ The vertex to check.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:135](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L135)
+[dataStructures/graphs/AdjacencyListGraph.ts:135](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L135)
 
 ***
 
@@ -157,7 +157,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:50](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L50)
+[dataStructures/graphs/AdjacencyListGraph.ts:50](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L50)
 
 ***
 
@@ -193,7 +193,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:73](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L73)
+[dataStructures/graphs/AdjacencyListGraph.ts:73](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L73)
 
 ***
 
@@ -215,7 +215,7 @@ Returns an iterator for all edges in the graph.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:122](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L122)
+[dataStructures/graphs/AdjacencyListGraph.ts:122](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L122)
 
 ***
 
@@ -247,7 +247,7 @@ The vertex from which the edges originate.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:109](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L109)
+[dataStructures/graphs/AdjacencyListGraph.ts:109](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L109)
 
 ***
 
@@ -281,4 +281,4 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/AdjacencyListGraph.ts:85](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L85)
+[dataStructures/graphs/AdjacencyListGraph.ts:85](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/AdjacencyListGraph.ts#L85)

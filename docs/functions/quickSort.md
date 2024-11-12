@@ -9,38 +9,32 @@
 > **quickSort**(`target`, `fromIndex`?, `toIndex`?): `number`[]
 
 Sorts an array of numbers using the QuickSort algorithm.
+Uses median-of-three pivot selection and in-place partitioning.
 
 ## Parameters
 
 • **target**: `number`[]
 
-The array of numbers to be sorted.
+The array of numbers to be sorted
 
 • **fromIndex?**: `number`
 
-The starting index of the portion of the array to sort. Defaults to 0.
+The starting index of the portion to sort (inclusive)
 
 • **toIndex?**: `number`
 
-The ending index of the portion of the array to sort. Defaults to the last index of the array.
+The ending index of the portion to sort (inclusive)
 
 ## Returns
 
 `number`[]
 
-A new sorted array of numbers.
+A new sorted array
 
 ## Throws
 
-Error if the provided indices are out of bounds or invalid.
-
-## Example
-
-```ts
-const sortedArray = quickSort([3, 1, 4, 1, 5, 9]);
-// sortedArray will be [1, 1, 3, 4, 5, 9]
-```
+If indices are out of bounds or invalid
 
 ## Defined in
 
-[algorithms/sorting/quickSort.ts:14](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/sorting/quickSort.ts#L14)
+[algorithms/sorting/quickSort.ts:11](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/sorting/quickSort.ts#L11)

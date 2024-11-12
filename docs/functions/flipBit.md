@@ -8,28 +8,40 @@
 
 > **flipBit**(`target`, `bitIndex`): `number`
 
-Flips the bit at the specified index in a given number.
+Flips (inverts) the bit at the specified index in a given number.
+A 0 becomes 1, and a 1 becomes 0 at the specified position.
 
 ## Parameters
 
 • **target**: `number`
 
-The number whose bit will be flipped.
+The integer whose bit will be flipped
 
 • **bitIndex**: `number`
 
-The index of the bit to flip (0-based).
+The zero-based position of the bit to flip (rightmost bit is 0)
 
 ## Returns
 
 `number`
 
-The new number with the specified bit flipped.
+A new number with the specified bit flipped
 
 ## Throws
 
-Throws an error if the bit index is out of range (must be between 0 and 30).
+If target or bitIndex is not an integer
+
+## Throws
+
+If bitIndex is not between 0 and 30 inclusive
+
+## Example
+
+```ts
+flipBit(5, 0)  // Returns 4 (binary: 101 -> 100)
+flipBit(5, 1)  // Returns 7 (binary: 101 -> 111)
+```
 
 ## Defined in
 
-[algorithms/bitManipulation/flipBit.ts:9](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/bitManipulation/flipBit.ts#L9)
+[algorithms/bitManipulation/flipBit.ts:14](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/bitManipulation/flipBit.ts#L14)

@@ -8,6 +8,8 @@
 
 > **HeapEntryType**: `object`
 
+Type definition for heap entries requiring a numeric value for comparison.
+
 ## Type declaration
 
 ### value
@@ -16,4 +18,4 @@
 
 ## Defined in
 
-[dataStructures/Heap.ts:1](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L1)
+[dataStructures/Heap.ts:4](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L4)

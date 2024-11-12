@@ -39,7 +39,7 @@ describe('generateUniquePermutations', () => {
 
   it('should handle empty array', () => {
     const input: number[] = [];
-    const expected: number[][] = [];
+    const expected: number[][] = [[]];
     expect(generateUniquePermutations(input)).toEqual(expected);
   });
 

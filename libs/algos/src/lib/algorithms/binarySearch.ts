@@ -1,17 +1,9 @@
 /**
  * Performs a binary search on a sorted array to find the index of a target value.
  *
- * @param target - A sorted array of numbers in which to search for the target.
- * @param search - The number to search for within the target array.
- * @returns The index of the target value in the array if found; otherwise, -1.
- *
- * @example
- * const index = binarySearch([1, 2, 3, 4, 5], 3);
- * console.log(index); // Output: 2
- *
- * @example
- * const index = binarySearch([1, 2, 3, 4, 5], 6);
- * console.log(index); // Output: -1
+ * @param target - A sorted array of numbers to search in
+ * @param search - The value to search for
+ * @returns {number} Index of the value if found, -1 if not found
  */
 export const binarySearch = (target: number[], search: number): number => {
   if (target.length === 0) {

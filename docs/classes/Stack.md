@@ -41,7 +41,7 @@ Returns the number of items currently in the stack.
 
 #### Defined in
 
-[dataStructures/Stack.ts:43](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Stack.ts#L43)
+[dataStructures/Stack.ts:43](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Stack.ts#L43)
 
 ## Methods
 
@@ -59,7 +59,7 @@ Returns the item at the top of the stack without removing it.
 
 #### Defined in
 
-[dataStructures/Stack.ts:34](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Stack.ts#L34)
+[dataStructures/Stack.ts:34](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Stack.ts#L34)
 
 ***
 
@@ -77,7 +77,7 @@ Removes and returns the item from the top of the stack.
 
 #### Defined in
 
-[dataStructures/Stack.ts:25](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Stack.ts#L25)
+[dataStructures/Stack.ts:25](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Stack.ts#L25)
 
 ***
 
@@ -99,4 +99,4 @@ The item to be added to the stack.
 
 #### Defined in
 
-[dataStructures/Stack.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Stack.ts#L16)
+[dataStructures/Stack.ts:16](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Stack.ts#L16)

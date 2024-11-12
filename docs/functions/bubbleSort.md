@@ -9,31 +9,20 @@
 > **bubbleSort**(`source`): `number`[]
 
 Sorts an array of numbers using the bubble sort algorithm.
-
-The bubble sort algorithm repeatedly steps through the list,
-compares adjacent elements, and swaps them if they are in the
-wrong order. The pass through the list is repeated until the
-list is sorted.
+Implements optimized bubble sort with early termination.
 
 ## Parameters
 
 • **source**: `number`[]
 
-An array of numbers to be sorted.
+The input array to be sorted
 
 ## Returns
 
 `number`[]
 
-A new array containing the sorted numbers.
-
-## Example
-
-```ts
-const sortedArray = bubbleSort([5, 3, 8, 4, 2]);
-console.log(sortedArray); // Output: [2, 3, 4, 5, 8]
-```
+A new sorted array, preserving the original
 
 ## Defined in
 
-[algorithms/sorting/bubbleSort.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/sorting/bubbleSort.ts#L16)
+[algorithms/sorting/bubbleSort.ts:8](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/sorting/bubbleSort.ts#L8)

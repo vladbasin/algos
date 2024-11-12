@@ -39,7 +39,7 @@ The value to be added to the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:14](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L14)
+[dataStructures/binaryTrees/BinarySearchTree.ts:14](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L14)
 
 ***
 
@@ -61,7 +61,7 @@ The value to be deleted from the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:54](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L54)
+[dataStructures/binaryTrees/BinarySearchTree.ts:54](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L54)
 
 ***
 
@@ -85,7 +85,7 @@ The value to search for in the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:44](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L44)
+[dataStructures/binaryTrees/BinarySearchTree.ts:44](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L44)
 
 ***
 
@@ -103,7 +103,7 @@ Converts the Binary Search Tree to an array representing a full binary tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:110](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L110)
+[dataStructures/binaryTrees/BinarySearchTree.ts:110](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L110)
 
 ***
 
@@ -121,7 +121,7 @@ Converts the Binary Search Tree to a sorted array.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:92](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L92)
+[dataStructures/binaryTrees/BinarySearchTree.ts:92](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L92)
 
 ***
 
@@ -139,7 +139,7 @@ Converts the Binary Search Tree to a sorted array using a recursive method.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:101](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L101)
+[dataStructures/binaryTrees/BinarySearchTree.ts:101](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L101)
 
 ***
 
@@ -157,4 +157,4 @@ Converts the Binary Search Tree to a string representation.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTree.ts:119](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L119)
+[dataStructures/binaryTrees/BinarySearchTree.ts:119](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTree.ts#L119)

@@ -6,14 +6,18 @@
 
 # Class: HashMap\<TKey, TValue\>
 
-Class representing a hash map, a data structure that allows for fast retrieval
-of key-value pairs using a hash function. Uses separate chaining with linked lists to handle collisions.
+Generic HashMap implementation using separate chaining for collision resolution.
+Provides constant-time average case operations through efficient hashing.
 
 ## Type Parameters
 
 • **TKey**
 
+Type of keys in the hash map
+
 • **TValue**
+
+Type of values in the hash map
 
 ## Constructors
 
@@ -21,13 +25,13 @@ of key-value pairs using a hash function. Uses separate chaining with linked lis
 
 > **new HashMap**\<`TKey`, `TValue`\>(`_capacity`): [`HashMap`](HashMap.md)\<`TKey`, `TValue`\>
 
-Creates a new HashMap instance with a specified capacity.
+Creates a new HashMap with specified capacity.
 
 #### Parameters
 
 • **\_capacity**: `number`
 
-The initial number of buckets in the hash map.
+Initial number of buckets
 
 #### Returns
 
@@ -35,7 +39,7 @@ The initial number of buckets in the hash map.
 
 #### Defined in
 
-[dataStructures/HashMap.ts:19](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HashMap.ts#L19)
+[dataStructures/HashMap.ts:22](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HashMap.ts#L22)
 
 ## Methods
 
@@ -49,17 +53,17 @@ Retrieves the value associated with a given key.
 
 • **key**: `TKey`
 
-The key to look up in the hash map.
+The key to look up
 
 #### Returns
 
 `undefined` \| `TValue`
 
-- The value if found, otherwise undefined.
+The value if found, undefined otherwise
 
 #### Defined in
 
-[dataStructures/HashMap.ts:51](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HashMap.ts#L51)
+[dataStructures/HashMap.ts:52](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HashMap.ts#L52)
 
 ***
 
@@ -67,23 +71,23 @@ The key to look up in the hash map.
 
 > **has**(`key`): `boolean`
 
-Checks if the hash map contains a specific key.
+Checks if a key exists in the hash map.
 
 #### Parameters
 
 • **key**: `TKey`
 
-The key to check for in the hash map.
+The key to check
 
 #### Returns
 
 `boolean`
 
-- True if the key exists, otherwise false.
+True if key exists, false otherwise
 
 #### Defined in
 
-[dataStructures/HashMap.ts:61](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HashMap.ts#L61)
+[dataStructures/HashMap.ts:62](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HashMap.ts#L62)
 
 ***
 
@@ -97,11 +101,11 @@ Adds or updates a key-value pair in the hash map.
 
 • **key**: `TKey`
 
-The key for the value.
+The key for the entry
 
 • **value**: `TValue`
 
-The value to be stored in the hash map.
+The value to store
 
 #### Returns
 
@@ -109,7 +113,7 @@ The value to be stored in the hash map.
 
 #### Defined in
 
-[dataStructures/HashMap.ts:30](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HashMap.ts#L30)
+[dataStructures/HashMap.ts:31](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HashMap.ts#L31)
 
 ***
 
@@ -117,20 +121,20 @@ The value to be stored in the hash map.
 
 > **remove**(`key`): `undefined` \| `TValue`
 
-Removes a key-value pair from the hash map by its key.
+Removes a key-value pair from the hash map.
 
 #### Parameters
 
 • **key**: `TKey`
 
-The key of the pair to remove.
+The key to remove
 
 #### Returns
 
 `undefined` \| `TValue`
 
-- The value of the removed key, or undefined if the key was not found.
+The removed value if found, undefined otherwise
 
 #### Defined in
 
-[dataStructures/HashMap.ts:71](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HashMap.ts#L71)
+[dataStructures/HashMap.ts:72](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HashMap.ts#L72)

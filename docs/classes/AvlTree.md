@@ -39,7 +39,7 @@ The value to be added to the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:14](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L14)
+[dataStructures/binaryTrees/AvlTree.ts:14](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L14)
 
 ***
 
@@ -61,7 +61,7 @@ The value to be deleted from the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:59](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L59)
+[dataStructures/binaryTrees/AvlTree.ts:59](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L59)
 
 ***
 
@@ -85,7 +85,7 @@ The value to search for in the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:49](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L49)
+[dataStructures/binaryTrees/AvlTree.ts:49](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L49)
 
 ***
 
@@ -103,7 +103,7 @@ Converts the AVL tree to an array representing a full binary tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:111](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L111)
+[dataStructures/binaryTrees/AvlTree.ts:111](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L111)
 
 ***
 
@@ -121,7 +121,7 @@ Converts the AVL tree to a sorted array.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:102](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L102)
+[dataStructures/binaryTrees/AvlTree.ts:102](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L102)
 
 ***
 
@@ -139,4 +139,4 @@ Converts the AVL tree to a string representation.
 
 #### Defined in
 
-[dataStructures/binaryTrees/AvlTree.ts:120](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L120)
+[dataStructures/binaryTrees/AvlTree.ts:120](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/AvlTree.ts#L120)

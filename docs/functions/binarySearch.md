@@ -14,30 +14,18 @@ Performs a binary search on a sorted array to find the index of a target value.
 
 • **target**: `number`[]
 
-A sorted array of numbers in which to search for the target.
+A sorted array of numbers to search in
 
 • **search**: `number`
 
-The number to search for within the target array.
+The value to search for
 
 ## Returns
 
 `number`
 
-The index of the target value in the array if found; otherwise, -1.
-
-## Examples
-
-```ts
-const index = binarySearch([1, 2, 3, 4, 5], 3);
-console.log(index); // Output: 2
-```
-
-```ts
-const index = binarySearch([1, 2, 3, 4, 5], 6);
-console.log(index); // Output: -1
-```
+Index of the value if found, -1 if not found
 
 ## Defined in
 
-[algorithms/binarySearch.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/binarySearch.ts#L16)
+[algorithms/binarySearch.ts:8](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/binarySearch.ts#L8)

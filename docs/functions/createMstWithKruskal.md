@@ -9,23 +9,28 @@
 > **createMstWithKruskal**(`graph`, `allowDisconnectedGraph`): [`IGraph`](../interfaces/IGraph.md)
 
 Creates a Minimum Spanning Tree (MST) using Kruskal's algorithm.
+Uses Union-Find data structure for efficient cycle detection.
 
 ## Parameters
 
 • **graph**: [`IGraph`](../interfaces/IGraph.md)
 
-The graph to create the MST from.
+The input graph to create MST from
 
 • **allowDisconnectedGraph**: `boolean` = `false`
 
-Whether to allow disconnected graphs. Creates a graph which represents a forest instead of a tree if `true`. Defaults to `false`.
+Whether to allow disconnected components (creates a forest)
 
 ## Returns
 
 [`IGraph`](../interfaces/IGraph.md)
 
-The MST.
+The minimum spanning tree (or forest if disconnected is allowed)
+
+## Throws
+
+If graph is disconnected and allowDisconnectedGraph is false
 
 ## Defined in
 
-[algorithms/graphs/createMstWithKruskal.ts:9](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/graphs/createMstWithKruskal.ts#L9)
+[algorithms/graphs/createMstWithKruskal.ts:12](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/graphs/createMstWithKruskal.ts#L12)

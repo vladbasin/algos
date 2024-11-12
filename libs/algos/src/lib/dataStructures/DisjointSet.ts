@@ -1,9 +1,14 @@
 /**
- * Disjoint Set is a data structure that keeps track of a partition of a set into disjoint (non-overlapping) subsets.
+ * Disjoint Set (Union-Find) data structure with path compression and union by rank.
+ * Efficiently maintains a partition of elements into disjoint sets.
  */
 export class DisjointSet {
   /**
-   * @param size - The size of the set.
+   * Creates a new DisjointSet data structure.
+   * Initially, each element is in its own singleton set.
+   *
+   * @param size - The number of elements in the set (0 to size-1)
+   * @throws {Error} If size is not positive
    */
   public constructor(size: number) {
     if (size <= 0) {
@@ -19,18 +24,22 @@ export class DisjointSet {
 
   /**
    * Checks if two elements are in the same set.
-   * @param element1 - The first element.
-   * @param element2 - The second element.
-   * @returns True if the elements are in the same set, false otherwise.
+   * Uses path compression for efficiency.
+   *
+   * @param element1 - First element
+   * @param element2 - Second element
+   * @returns {boolean} True if elements are in the same set
    */
   public areInSameSet(element1: number, element2: number): boolean {
     return this.findSetRepresentative(element1) === this.findSetRepresentative(element2);
   }
 
   /**
-   * Unions two sets.
-   * @param element1 - The first element.
-   * @param element2 - The second element.
+   * Merges the sets containing the two elements.
+   * Uses union by rank for balanced trees.
+   *
+   * @param element1 - First element
+   * @param element2 - Second element
    */
   public union(element1: number, element2: number): void {
     const set1 = this.findSetRepresentative(element1);
@@ -51,9 +60,13 @@ export class DisjointSet {
   }
 
   /**
-   * Finds the representative of the set containing the given element.
-   * @param element - The element.
-   * @returns The representative of the set containing the given element.
+   * Finds the representative of the set containing the element.
+   * Implements path compression for O(α(n)) amortized time complexity.
+   *
+   * @param element - The element to find the set for
+   * @returns {number} The representative of the set
+   * @throws {Error} If element is out of bounds
+   * @private
    */
   private findSetRepresentative(element: number): number {
     this.ensureElementBounds(element);
@@ -71,8 +84,11 @@ export class DisjointSet {
   private _rank: number[];
 
   /**
-   * Ensures the element is within the bounds of the set.
-   * @param element - The element.
+   * Validates that the element index is within bounds.
+   *
+   * @param element - The element index to validate
+   * @throws {Error} If element is out of bounds
+   * @private
    */
   private ensureElementBounds(element: number): void {
     if (element < 0 || element >= this._size) {

@@ -37,7 +37,7 @@ The weight of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
+[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
 
 ## Properties
 
@@ -49,7 +49,7 @@ The starting vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
+[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
 
 ***
 
@@ -61,7 +61,7 @@ The ending vertex of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
+[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
 
 ***
 
@@ -73,4 +73,4 @@ The weight of the edge.
 
 #### Defined in
 
-[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)
+[dataStructures/graphs/contracts/GraphEdge.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/graphs/contracts/GraphEdge.ts#L13)

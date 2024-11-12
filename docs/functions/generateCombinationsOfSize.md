@@ -8,7 +8,7 @@
 
 > **generateCombinationsOfSize**\<`T`\>(`source`, `length`): `T`[][]
 
-Generates all combinations of a given size from a source array.
+Generates all possible combinations of elements of a specified length from a source array.
 
 ## Type Parameters
 
@@ -18,18 +18,30 @@ Generates all combinations of a given size from a source array.
 
 • **source**: `T`[]
 
-The array to generate combinations from.
+The array of elements to generate combinations from
 
 • **length**: `number`
 
-The desired length of the combinations.
+The desired length of each combination
 
 ## Returns
 
 `T`[][]
 
-An array of arrays, where each inner array is a combination of the specified length.
+Array of all possible combinations, where each combination is an array of length elements
+
+## Throws
+
+If length is negative or greater than source array length
+
+## Example
+
+```ts
+generateCombinationsOfSize([1, 2, 3], 2)  // Returns [[1,2], [1,3], [2,3]]
+generateCombinationsOfSize([1, 2], 0)     // Returns [[]]
+generateCombinationsOfSize([1, 2], 1)     // Returns [[1], [2]]
+```
 
 ## Defined in
 
-[algorithms/combinatorics/generateCombinationsOfSize.ts:7](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/combinatorics/generateCombinationsOfSize.ts#L7)
+[algorithms/combinatorics/generateCombinationsOfSize.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/combinatorics/generateCombinationsOfSize.ts#L13)

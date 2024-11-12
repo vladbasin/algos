@@ -1,11 +1,14 @@
 import { IGraph } from '../../dataStructures';
 
 /**
- * Calculates the shortest paths from a source vertex to all other vertices in a graph using the Bellman-Ford algorithm.
+ * Calculates the shortest paths from a source vertex to all other vertices using the Bellman-Ford algorithm.
+ * Can detect negative cycles and handles negative edge weights.
  *
- * @param {IGraph} graph - The graph to calculate the shortest paths for.
- * @param {number} sourceVertex - The source vertex to calculate the shortest paths from.
- * @returns {number[]} An array representing the shortest distances from the source vertex to all other vertices.
+ * @param graph - The input graph to calculate shortest paths for
+ * @param sourceVertex - The starting vertex for path calculations
+ * @returns {number[]} Array of shortest distances from source to each vertex
+ * @throws {RangeError} If sourceVertex is out of bounds
+ * @throws {Error} If a negative cycle is detected
  */
 export const calculateShortestPathsWithBellmanFord = (graph: IGraph, sourceVertex: number): number[] => {
   if (graph.numberOfVertices === 0) {

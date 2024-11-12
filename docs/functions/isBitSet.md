@@ -8,28 +8,40 @@
 
 > **isBitSet**(`target`, `bitIndex`): `boolean`
 
-Checks if a specific bit is set in a given number.
+Checks if a specific bit is set (equals 1) in a given number.
 
 ## Parameters
 
 • **target**: `number`
 
-The number to check.
+The integer to check
 
 • **bitIndex**: `number`
 
-The index of the bit to check (0-based).
+The zero-based position of the bit to check (rightmost bit is 0)
 
 ## Returns
 
 `boolean`
 
-True if the bit at the specified index is set, otherwise false.
+True if the bit at the specified position is 1, false if it's 0
 
 ## Throws
 
-if the bitIndex is less than 0 or greater than or equal to 31.
+If target or bitIndex is not an integer
+
+## Throws
+
+If bitIndex is not between 0 and 30 inclusive
+
+## Example
+
+```ts
+isBitSet(5, 0)  // Returns true (binary: 101)
+isBitSet(5, 1)  // Returns false (binary: 101)
+isBitSet(5, 2)  // Returns true (binary: 101)
+```
 
 ## Defined in
 
-[algorithms/bitManipulation/isBitSet.ts:9](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/bitManipulation/isBitSet.ts#L9)
+[algorithms/bitManipulation/isBitSet.ts:14](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/bitManipulation/isBitSet.ts#L14)

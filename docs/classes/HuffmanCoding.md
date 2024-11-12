@@ -41,7 +41,7 @@ The root node of the Huffman Tree.
 
 #### Defined in
 
-[dataStructures/HuffmanCoding.ts:68](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L68)
+[dataStructures/HuffmanCoding.ts:68](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L68)
 
 ***
 
@@ -70,7 +70,7 @@ Error - Throws an error if the input text is empty.
 
 #### Defined in
 
-[dataStructures/HuffmanCoding.ts:25](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L25)
+[dataStructures/HuffmanCoding.ts:25](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L25)
 
 ***
 
@@ -102,7 +102,7 @@ Error - Throws an error if the encoding map is incorrect or the text is malforme
 
 #### Defined in
 
-[dataStructures/HuffmanCoding.ts:133](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L133)
+[dataStructures/HuffmanCoding.ts:133](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L133)
 
 ***
 
@@ -130,4 +130,4 @@ Error - Throws an error if the input contains characters not present in the map.
 
 #### Defined in
 
-[dataStructures/HuffmanCoding.ts:104](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L104)
+[dataStructures/HuffmanCoding.ts:104](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/HuffmanCoding.ts#L104)

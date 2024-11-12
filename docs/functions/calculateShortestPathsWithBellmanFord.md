@@ -8,24 +8,33 @@
 
 > **calculateShortestPathsWithBellmanFord**(`graph`, `sourceVertex`): `number`[]
 
-Calculates the shortest paths from a source vertex to all other vertices in a graph using the Bellman-Ford algorithm.
+Calculates the shortest paths from a source vertex to all other vertices using the Bellman-Ford algorithm.
+Can detect negative cycles and handles negative edge weights.
 
 ## Parameters
 
 • **graph**: [`IGraph`](../interfaces/IGraph.md)
 
-The graph to calculate the shortest paths for.
+The input graph to calculate shortest paths for
 
 • **sourceVertex**: `number`
 
-The source vertex to calculate the shortest paths from.
+The starting vertex for path calculations
 
 ## Returns
 
 `number`[]
 
-An array representing the shortest distances from the source vertex to all other vertices.
+Array of shortest distances from source to each vertex
+
+## Throws
+
+If sourceVertex is out of bounds
+
+## Throws
+
+If a negative cycle is detected
 
 ## Defined in
 
-[algorithms/graphs/calculateShortestPathsWithBellmanFord.ts:10](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithBellmanFord.ts#L10)
+[algorithms/graphs/calculateShortestPathsWithBellmanFord.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithBellmanFord.ts#L13)

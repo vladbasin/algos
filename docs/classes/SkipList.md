@@ -35,7 +35,7 @@ Returns the lowest level of the skip list.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:214](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L214)
+[dataStructures/SkipList.ts:214](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L214)
 
 ## Methods
 
@@ -58,7 +58,7 @@ The value to be added to the skip list.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:18](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L18)
+[dataStructures/SkipList.ts:18](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L18)
 
 ***
 
@@ -82,7 +82,7 @@ The value to check.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:105](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L105)
+[dataStructures/SkipList.ts:105](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L105)
 
 ***
 
@@ -104,7 +104,7 @@ The value to be removed from the skip list.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:69](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L69)
+[dataStructures/SkipList.ts:69](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L69)
 
 ***
 
@@ -128,7 +128,7 @@ The index of the value to search for.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:117](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L117)
+[dataStructures/SkipList.ts:117](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L117)
 
 ***
 
@@ -152,7 +152,7 @@ The level to convert to an array.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:160](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L160)
+[dataStructures/SkipList.ts:160](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L160)
 
 ***
 
@@ -176,7 +176,7 @@ The level to convert.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:172](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L172)
+[dataStructures/SkipList.ts:172](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L172)
 
 ***
 
@@ -194,7 +194,7 @@ Returns a string representation of all levels of the skip list.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:202](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L202)
+[dataStructures/SkipList.ts:202](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L202)
 
 ***
 
@@ -218,4 +218,4 @@ The level to represent as a string.
 
 #### Defined in
 
-[dataStructures/SkipList.ts:191](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/SkipList.ts#L191)
+[dataStructures/SkipList.ts:191](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/SkipList.ts#L191)

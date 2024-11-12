@@ -8,24 +8,33 @@
 
 > **calculateShortestPathsWithDijkstra**(`graph`, `sourceVertex`): `number`[]
 
-Calculates the shortest paths from a source vertex to all other vertices in a graph using Dijkstra's algorithm.
+Calculates shortest paths from a source vertex to all other vertices using Dijkstra's algorithm.
+Uses a min-heap for efficient vertex selection.
 
 ## Parameters
 
 • **graph**: [`IGraph`](../interfaces/IGraph.md)
 
-The graph to calculate the shortest paths on.
+The input graph to calculate shortest paths for
 
 • **sourceVertex**: `number`
 
-The source vertex to calculate the shortest paths from.
+The starting vertex for path calculations
 
 ## Returns
 
 `number`[]
 
-An array containing the shortest path distances to all vertices. If path does not exist, the distance is set to `Number.MAX_SAFE_INTEGER`.
+Array of shortest distances from source to each vertex
+
+## Throws
+
+If sourceVertex is out of bounds
+
+## Throws
+
+If graph contains negative weights
 
 ## Defined in
 
-[algorithms/graphs/calculateShortestPathsWithDijkstra.ts:10](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithDijkstra.ts#L10)
+[algorithms/graphs/calculateShortestPathsWithDijkstra.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/graphs/calculateShortestPathsWithDijkstra.ts#L13)

@@ -6,12 +6,13 @@
 
 # Class: Heap\<THeapEntry\>
 
-Class representing a binary heap data structure, which can be either a min-heap or a max-heap.
-A heap is a complete binary tree where the parent node is either greater (max-heap) or smaller (min-heap) than its children.
+Generic binary heap implementation supporting both min-heap and max-heap.
 
 ## Type Parameters
 
 • **THeapEntry** *extends* [`HeapEntryType`](../type-aliases/HeapEntryType.md)
+
+Type of elements stored in heap, must include a numeric value property
 
 ## Constructors
 
@@ -19,13 +20,13 @@ A heap is a complete binary tree where the parent node is either greater (max-he
 
 > **new Heap**\<`THeapEntry`\>(`_type`): [`Heap`](Heap.md)\<`THeapEntry`\>
 
-Creates a new Heap instance, either as a min-heap or a max-heap.
+Creates a new Heap instance.
 
 #### Parameters
 
 • **\_type**: `"min"` \| `"max"`
 
-Specifies the type of heap ('min' for min-heap, 'max' for max-heap).
+'min' for min-heap or 'max' for max-heap
 
 #### Returns
 
@@ -33,7 +34,7 @@ Specifies the type of heap ('min' for min-heap, 'max' for max-heap).
 
 #### Defined in
 
-[dataStructures/Heap.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L15)
+[dataStructures/Heap.ts:19](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L19)
 
 ## Accessors
 
@@ -41,17 +42,17 @@ Specifies the type of heap ('min' for min-heap, 'max' for max-heap).
 
 > `get` **size**(): `number`
 
-Returns the number of elements in the heap.
+Current number of elements in the heap.
 
 #### Returns
 
 `number`
 
-- The current size of the heap.
+The heap size
 
 #### Defined in
 
-[dataStructures/Heap.ts:61](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L61)
+[dataStructures/Heap.ts:63](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L63)
 
 ## Methods
 
@@ -59,13 +60,13 @@ Returns the number of elements in the heap.
 
 > **add**(`entry`): `void`
 
-Adds a new value to the heap and maintains the heap property.
+Adds a new entry to the heap and maintains heap property.
 
 #### Parameters
 
 • **entry**: `THeapEntry`
 
-The entry to be added to the heap.
+The entry to add
 
 #### Returns
 
@@ -73,7 +74,7 @@ The entry to be added to the heap.
 
 #### Defined in
 
-[dataStructures/Heap.ts:23](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L23)
+[dataStructures/Heap.ts:26](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L26)
 
 ***
 
@@ -81,18 +82,17 @@ The entry to be added to the heap.
 
 > **peek**(): `undefined` \| `THeapEntry`
 
-Returns the root value of the heap (the minimum value for a min-heap or the maximum value for a max-heap)
-without removing it from the heap.
+Returns the root value without removing it.
 
 #### Returns
 
 `undefined` \| `THeapEntry`
 
-- The root value of the heap, or undefined if the heap is empty.
+The root entry or undefined if empty
 
 #### Defined in
 
-[dataStructures/Heap.ts:34](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L34)
+[dataStructures/Heap.ts:36](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L36)
 
 ***
 
@@ -100,14 +100,14 @@ without removing it from the heap.
 
 > **pop**(): `undefined` \| `THeapEntry`
 
-Removes and returns the root value of the heap (the minimum or maximum value) while maintaining the heap property.
+Removes and returns the root value.
 
 #### Returns
 
 `undefined` \| `THeapEntry`
 
-- The root value of the heap, or undefined if the heap is empty.
+The root entry or undefined if empty
 
 #### Defined in
 
-[dataStructures/Heap.ts:43](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Heap.ts#L43)
+[dataStructures/Heap.ts:45](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Heap.ts#L45)

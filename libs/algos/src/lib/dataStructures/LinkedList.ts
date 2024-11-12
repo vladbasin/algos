@@ -5,10 +5,6 @@ import { LinkedListElementType } from './contracts';
  * Provides methods for adding, removing, searching, and iterating over elements in the list.
  */
 export class LinkedList<T> {
-  private _head: LinkedListElementType<T> | undefined = undefined;
-  private _tail: LinkedListElementType<T> | undefined = undefined;
-  private _length = 0;
-
   /**
    * Adds a new value at the tail of the linked list.
    *
@@ -433,6 +429,10 @@ export class LinkedList<T> {
 
     return items;
   }
+
+  private _head: LinkedListElementType<T> | undefined = undefined;
+  private _tail: LinkedListElementType<T> | undefined = undefined;
+  private _length = 0;
 
   /**
    * Safely decreases the length of the linked list.

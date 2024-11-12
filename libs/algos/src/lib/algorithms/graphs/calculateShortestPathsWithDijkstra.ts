@@ -1,48 +1,50 @@
 import { Heap, IGraph } from '../../dataStructures';
 
 /**
- * Calculates the shortest paths from a source vertex to all other vertices in a graph using Dijkstra's algorithm.
+ * Calculates shortest paths from a source vertex to all other vertices using Dijkstra's algorithm.
+ * Uses a min-heap for efficient vertex selection.
  *
- * @param {IGraph} graph - The graph to calculate the shortest paths on.
- * @param {number} sourceVertex - The source vertex to calculate the shortest paths from.
- * @returns {number[]} An array containing the shortest path distances to all vertices. If path does not exist, the distance is set to `Number.MAX_SAFE_INTEGER`.
+ * @param graph - The input graph to calculate shortest paths for
+ * @param sourceVertex - The starting vertex for path calculations
+ * @returns {number[]} Array of shortest distances from source to each vertex
+ * @throws {RangeError} If sourceVertex is out of bounds
+ * @throws {Error} If graph contains negative weights
  */
 export const calculateShortestPathsWithDijkstra = (graph: IGraph, sourceVertex: number): number[] => {
   if (graph.numberOfVertices === 0) {
     return [];
   }
 
+  // Vertex bounds check is handled by graph.ensureVertexBounds
   graph.ensureVertexBounds(sourceVertex);
 
-  const minVertices = new Heap<{ vertex: number; value: number }>('min');
+  // Initialize data structures
+  const minHeap = new Heap<{ vertex: number; value: number }>('min');
   const processedVertices = new Set<number>();
-
   const distances = Array(graph.numberOfVertices).fill(Number.MAX_SAFE_INTEGER);
+
+  // Set source distance and add to heap
   distances[sourceVertex] = 0;
-  distances.forEach((value, index) => minVertices.add({ vertex: index, value }));
+  minHeap.add({ vertex: sourceVertex, value: 0 });
 
-  while (minVertices.size > 0) {
-    const minVertex = minVertices.pop();
-
-    if (
-      !minVertex ||
-      processedVertices.has(minVertex.vertex) ||
-      distances[minVertex.vertex] === Number.MAX_SAFE_INTEGER
-    ) {
+  while (minHeap.size > 0) {
+    const current = minHeap.pop();
+    if (!current || processedVertices.has(current.vertex)) {
       continue;
     }
 
-    processedVertices.add(minVertex.vertex);
+    processedVertices.add(current.vertex);
 
-    for (const edge of graph.iterateEdgesFrom(minVertex.vertex)) {
+    // Process all edges from current vertex
+    for (const edge of graph.iterateEdgesFrom(current.vertex)) {
       if (edge.weight < 0) {
-        throw new Error('Graph contains negative weight edges.');
+        throw new Error("Negative edge weights are not allowed in Dijkstra's algorithm");
       }
 
-      const newDistance = distances[minVertex.vertex] + edge.weight;
+      const newDistance = distances[current.vertex] + edge.weight;
       if (newDistance < distances[edge.to]) {
         distances[edge.to] = newDistance;
-        minVertices.add({ vertex: edge.to, value: newDistance });
+        minHeap.add({ vertex: edge.to, value: newDistance });
       }
     }
   }

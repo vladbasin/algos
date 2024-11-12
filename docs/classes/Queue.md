@@ -41,7 +41,7 @@ Returns the number of items currently in the queue.
 
 #### Defined in
 
-[dataStructures/Queue.ts:43](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Queue.ts#L43)
+[dataStructures/Queue.ts:43](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Queue.ts#L43)
 
 ## Methods
 
@@ -59,7 +59,7 @@ Removes and returns the item from the front of the queue (dequeues the item).
 
 #### Defined in
 
-[dataStructures/Queue.ts:25](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Queue.ts#L25)
+[dataStructures/Queue.ts:25](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Queue.ts#L25)
 
 ***
 
@@ -81,7 +81,7 @@ The item to be added to the queue.
 
 #### Defined in
 
-[dataStructures/Queue.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Queue.ts#L16)
+[dataStructures/Queue.ts:16](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Queue.ts#L16)
 
 ***
 
@@ -99,4 +99,4 @@ Returns the item at the front of the queue without removing it.
 
 #### Defined in
 
-[dataStructures/Queue.ts:34](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/Queue.ts#L34)
+[dataStructures/Queue.ts:34](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/Queue.ts#L34)

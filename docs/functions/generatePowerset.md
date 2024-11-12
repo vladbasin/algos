@@ -8,7 +8,8 @@
 
 > **generatePowerset**\<`T`\>(`source`): `T`[][]
 
-Generate all subsets of a given set. Example: generatePowerset([1, 2, 3]) -> [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
+Generates all possible subsets (power set) of a given array using backtracking.
+The power set includes the empty set and the set itself.
 
 ## Type Parameters
 
@@ -18,14 +19,22 @@ Generate all subsets of a given set. Example: generatePowerset([1, 2, 3]) -> [[]
 
 • **source**: `T`[]
 
-The input array.
+The input array to generate subsets from
 
 ## Returns
 
 `T`[][]
 
-All subsets of the input array.
+Array containing all possible subsets
+
+## Example
+
+```ts
+generatePowerset([1, 2])    // Returns [[], [1], [1,2], [2]]
+generatePowerset([1, 2, 3]) // Returns [[], [1], [1,2], [1,2,3], [1,3], [2], [2,3], [3]]
+generatePowerset([])        // Returns [[]]
+```
 
 ## Defined in
 
-[algorithms/combinatorics/generatePowerset.ts:6](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/combinatorics/generatePowerset.ts#L6)
+[algorithms/combinatorics/generatePowerset.ts:12](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/combinatorics/generatePowerset.ts#L12)

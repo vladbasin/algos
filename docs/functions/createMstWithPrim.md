@@ -8,20 +8,25 @@
 
 > **createMstWithPrim**(`graph`): [`IGraph`](../interfaces/IGraph.md)
 
-Create a minimum spanning tree with Prim's algorithm.
+Creates a Minimum Spanning Tree (MST) using Prim's algorithm.
+Uses a min-heap for efficient next edge selection.
 
 ## Parameters
 
 • **graph**: [`IGraph`](../interfaces/IGraph.md)
 
-The graph to create the minimum spanning tree from.
+The input graph to create MST from
 
 ## Returns
 
 [`IGraph`](../interfaces/IGraph.md)
 
-The minimum spanning tree.
+The minimum spanning tree
+
+## Throws
+
+If graph is not connected
 
 ## Defined in
 
-[algorithms/graphs/createMstWithPrim.ts:8](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/algorithms/graphs/createMstWithPrim.ts#L8)
+[algorithms/graphs/createMstWithPrim.ts:11](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/algorithms/graphs/createMstWithPrim.ts#L11)

@@ -35,7 +35,7 @@ Retrieves the root node of the Red-Black Tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:140](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L140)
+[dataStructures/binaryTrees/RedBlackTree.ts:140](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L140)
 
 ## Methods
 
@@ -58,7 +58,7 @@ The value to be added to the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:15](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L15)
+[dataStructures/binaryTrees/RedBlackTree.ts:15](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L15)
 
 ***
 
@@ -81,7 +81,7 @@ The value to be deleted from the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:51](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L51)
+[dataStructures/binaryTrees/RedBlackTree.ts:51](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L51)
 
 ***
 
@@ -105,7 +105,7 @@ The value to search for.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:103](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L103)
+[dataStructures/binaryTrees/RedBlackTree.ts:103](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L103)
 
 ***
 
@@ -129,7 +129,7 @@ If true, nil nodes will be excluded from the array.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:122](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L122)
+[dataStructures/binaryTrees/RedBlackTree.ts:122](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L122)
 
 ***
 
@@ -147,7 +147,7 @@ Converts the Red-Black Tree to a sorted array.
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:112](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L112)
+[dataStructures/binaryTrees/RedBlackTree.ts:112](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L112)
 
 ***
 
@@ -165,4 +165,4 @@ Converts the Red-Black Tree to a string representation, showing node values and 
 
 #### Defined in
 
-[dataStructures/binaryTrees/RedBlackTree.ts:131](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L131)
+[dataStructures/binaryTrees/RedBlackTree.ts:131](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/RedBlackTree.ts#L131)

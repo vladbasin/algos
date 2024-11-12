@@ -49,7 +49,7 @@ The right child of the node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTreeNode.ts:16](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L16)
+[dataStructures/binaryTrees/BinarySearchTreeNode.ts:16](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L16)
 
 ## Properties
 
@@ -65,7 +65,7 @@ The left child of the node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTreeNode.ts:19](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L19)
+[dataStructures/binaryTrees/BinarySearchTreeNode.ts:19](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L19)
 
 ***
 
@@ -81,7 +81,7 @@ The parent of the current node, if any.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTreeNode.ts:18](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L18)
+[dataStructures/binaryTrees/BinarySearchTreeNode.ts:18](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L18)
 
 ***
 
@@ -97,7 +97,7 @@ The right child of the node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTreeNode.ts:20](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L20)
+[dataStructures/binaryTrees/BinarySearchTreeNode.ts:20](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L20)
 
 ***
 
@@ -113,7 +113,7 @@ The value stored in the node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinarySearchTreeNode.ts:17](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L17)
+[dataStructures/binaryTrees/BinarySearchTreeNode.ts:17](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinarySearchTreeNode.ts#L17)
 
 ## Methods
 
@@ -135,7 +135,7 @@ Helper method to cast the current object as a node of type T.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:406](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L406)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:406](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L406)
 
 ***
 
@@ -155,7 +155,7 @@ Detaches the node from its parent, effectively removing it from the tree.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:131](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L131)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:131](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L131)
 
 ***
 
@@ -191,7 +191,7 @@ The value to search for.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:181](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L181)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:181](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L181)
 
 ***
 
@@ -213,7 +213,7 @@ Finds the in-order successor of the node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:160](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L160)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:160](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L160)
 
 ***
 
@@ -235,7 +235,7 @@ Retrieves the close nephew (left child of the node's sibling if this node is lef
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:113](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L113)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:113](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L113)
 
 ***
 
@@ -257,7 +257,7 @@ Retrieves the distant nephew (right child of the node's sibling if this node is 
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:123](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L123)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:123](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L123)
 
 ***
 
@@ -279,7 +279,7 @@ Returns the non-nil child of the node, if one exists.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:86](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L86)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:86](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L86)
 
 ***
 
@@ -301,7 +301,7 @@ Retrieves the sibling of the current node, if it has one.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:101](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L101)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:101](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L101)
 
 ***
 
@@ -323,7 +323,7 @@ Determines if the node has any child nodes.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:32](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L32)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:32](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L32)
 
 ***
 
@@ -345,7 +345,7 @@ Determines if the node has any non-nil child nodes.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:41](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L41)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:41](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L41)
 
 ***
 
@@ -367,7 +367,7 @@ Determines if the node has both left and right children.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:50](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L50)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:50](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L50)
 
 ***
 
@@ -389,7 +389,7 @@ Determines if both children of the node are non-nil.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:59](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L59)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:59](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L59)
 
 ***
 
@@ -411,7 +411,7 @@ Checks if the node is a left child of its parent.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:68](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L68)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:68](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L68)
 
 ***
 
@@ -433,7 +433,7 @@ Checks if the current node is a Nil node (undefined value).
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:23](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L23)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:23](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L23)
 
 ***
 
@@ -455,7 +455,7 @@ Checks if the node is a right child of its parent.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:77](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L77)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:77](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L77)
 
 ***
 
@@ -481,7 +481,7 @@ The node to replace the current one, or undefined to remove it.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:140](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L140)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:140](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L140)
 
 ***
 
@@ -509,7 +509,7 @@ Function to set the root node of the tree, if it was affected by rotation.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:203](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L203)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:203](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L203)
 
 ***
 
@@ -537,7 +537,7 @@ Function to set the root node of the tree, if it was affected by rotation.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:238](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L238)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:238](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L238)
 
 ***
 
@@ -565,7 +565,7 @@ If true, nil nodes are ignored in the resulting array.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:272](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L272)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:272](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L272)
 
 ***
 
@@ -597,7 +597,7 @@ A function to add an extra suffix to each node value in the string representatio
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:298](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L298)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:298](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L298)
 
 ***
 
@@ -619,7 +619,7 @@ Traverses the tree in in-order traversal and returns an array of node values.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:350](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L350)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:350](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L350)
 
 ***
 
@@ -641,7 +641,7 @@ Traverses the tree in in-order traversal and returns an array of nodes.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:359](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L359)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:359](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L359)
 
 ***
 
@@ -669,4 +669,4 @@ The node to start traversal from, or defaults to the current node.
 
 #### Defined in
 
-[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:387](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L387)
+[dataStructures/binaryTrees/BinaryTreeNodeBase.ts:387](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/binaryTrees/BinaryTreeNodeBase.ts#L387)

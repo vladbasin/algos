@@ -1,24 +1,27 @@
+/**
+ * Type definition for heap entries requiring a numeric value for comparison.
+ */
 export type HeapEntryType = {
   value: number;
 };
 
 /**
- * Class representing a binary heap data structure, which can be either a min-heap or a max-heap.
- * A heap is a complete binary tree where the parent node is either greater (max-heap) or smaller (min-heap) than its children.
+ * Generic binary heap implementation supporting both min-heap and max-heap.
+ *
+ * @template THeapEntry - Type of elements stored in heap, must include a numeric value property
  */
 export class Heap<THeapEntry extends HeapEntryType> {
   /**
-   * Creates a new Heap instance, either as a min-heap or a max-heap.
+   * Creates a new Heap instance.
    *
-   * @param {'min' | 'max'} _type - Specifies the type of heap ('min' for min-heap, 'max' for max-heap).
+   * @param _type - 'min' for min-heap or 'max' for max-heap
    */
   public constructor(private _type: 'min' | 'max') {}
 
   /**
-   * Adds a new value to the heap and maintains the heap property.
+   * Adds a new entry to the heap and maintains heap property.
    *
-   * @param {THeapEntry} entry - The entry to be added to the heap.
-   * @returns {void}
+   * @param entry - The entry to add
    */
   public add(entry: THeapEntry): void {
     this._nodes.push(entry);
@@ -26,19 +29,18 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Returns the root value of the heap (the minimum value for a min-heap or the maximum value for a max-heap)
-   * without removing it from the heap.
+   * Returns the root value without removing it.
    *
-   * @returns {THeapEntry | undefined} - The root value of the heap, or undefined if the heap is empty.
+   * @returns {THeapEntry | undefined} The root entry or undefined if empty
    */
   public peek(): THeapEntry | undefined {
     return this._nodes[0];
   }
 
   /**
-   * Removes and returns the root value of the heap (the minimum or maximum value) while maintaining the heap property.
+   * Removes and returns the root value.
    *
-   * @returns {THeapEntry | undefined} - The root value of the heap, or undefined if the heap is empty.
+   * @returns {THeapEntry | undefined} The root entry or undefined if empty
    */
   public pop(): THeapEntry | undefined {
     if (this.size === 0) {
@@ -54,27 +56,22 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Returns the number of elements in the heap.
+   * Current number of elements in the heap.
    *
-   * @returns {number} - The current size of the heap.
+   * @returns {number} The heap size
    */
   public get size(): number {
     return this._nodes.length;
   }
 
-  /**
-   * Internal array that stores the elements of the heap.
-   *
-   * @private
-   * @type {THeapEntry[]}
-   */
   private _nodes: THeapEntry[] = [];
 
   /**
-   * Moves an element up in the heap until the heap property is restored.
+   * Moves an element up the heap until heap property is restored.
+   * Used after adding a new element.
    *
+   * @param index - Index of element to raise
    * @private
-   * @param {number} index - The index of the element to move up in the heap.
    */
   private raise(index: number): void {
     let currentIndex = index;
@@ -90,10 +87,11 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Moves an element down in the heap until the heap property is restored.
+   * Moves an element down the heap until heap property is restored.
+   * Used after removing the root element.
    *
+   * @param index - Index of element to lower
    * @private
-   * @param {number} index - The index of the element to move down in the heap.
    */
   private lower(index: number): void {
     let currentIndex = index;
@@ -127,12 +125,12 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Returns the index of the parent of the given index.
+   * Gets parent index for a given node index.
    *
+   * @param index - Child node index
+   * @returns {number} Parent node index
+   * @throws {Error} If index is 0 (root has no parent)
    * @private
-   * @param {number} index - The index of the child.
-   * @returns {number} - The index of the parent.
-   * @throws {Error} - If the index is 0, as the root node has no parent.
    */
   private getParentIndex(index: number): number {
     if (index === 0) {
@@ -143,11 +141,11 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Returns the index of the left child of the given index.
+   * Gets left child index for a given node index.
    *
+   * @param index - Parent node index
+   * @returns {number | undefined} Left child index or undefined if none
    * @private
-   * @param {number} index - The index of the parent.
-   * @returns {number | undefined} - The index of the left child, or undefined if the left child is out of bounds.
    */
   private getLeftIndex(index: number): number | undefined {
     const result = index * 2 + 1;
@@ -155,11 +153,11 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Returns the index of the right child of the given index.
+   * Gets right child index for a given node index.
    *
+   * @param index - Parent node index
+   * @returns {number | undefined} Right child index or undefined if none
    * @private
-   * @param {number} index - The index of the parent.
-   * @returns {number | undefined} - The index of the right child, or undefined if the right child is out of bounds.
    */
   private getRightIndex(index: number): number | undefined {
     const result = index * 2 + 2;
@@ -167,12 +165,12 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Determines if the parent element should remain the parent of the child based on the heap type.
+   * Checks if parent node should remain parent of child based on heap type.
    *
+   * @param parentIndex - Parent node index
+   * @param childrenIndex - Child node index
+   * @returns {boolean} True if heap property is satisfied
    * @private
-   * @param {number} parentIndex - The index of the parent element.
-   * @param {number} childrenIndex - The index of the child element.
-   * @returns {boolean} - True if the parent element satisfies the heap property, otherwise false.
    */
   private shouldBeParent(parentIndex: number, childrenIndex: number): boolean {
     return this._type === 'max'
@@ -181,29 +179,26 @@ export class Heap<THeapEntry extends HeapEntryType> {
   }
 
   /**
-   * Determines if the parent element should remain the parent of both left and right children based on the heap type.
+   * Checks if parent node should remain parent of both children.
    *
+   * @param parentIndex - Parent node index
+   * @param leftIndex - Left child index
+   * @param rightIndex - Right child index
+   * @returns {boolean} True if heap property is satisfied for both children
    * @private
-   * @param {number} parentIndex - The index of the parent element.
-   * @param {number} leftIndex - The index of the left child element.
-   * @param {number} rightIndex - The index of the right child element.
-   * @returns {boolean} - True if the parent element satisfies the heap property for both children, otherwise false.
    */
   private shouldBeParentOfBoth(parentIndex: number, leftIndex: number, rightIndex: number): boolean {
     return this.shouldBeParent(parentIndex, leftIndex) && this.shouldBeParent(parentIndex, rightIndex);
   }
 
   /**
-   * Swaps two elements in the heap at the given indices.
+   * Swaps two elements in the heap.
    *
+   * @param index1 - First element index
+   * @param index2 - Second element index
    * @private
-   * @param {number} index1 - The index of the first element.
-   * @param {number} index2 - The index of the second element.
-   * @returns {void}
    */
   private swap(index1: number, index2: number): void {
-    const tmp = this._nodes[index1];
-    this._nodes[index1] = this._nodes[index2];
-    this._nodes[index2] = tmp;
+    [this._nodes[index1], this._nodes[index2]] = [this._nodes[index2], this._nodes[index1]];
   }
 }

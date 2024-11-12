@@ -6,7 +6,8 @@
 
 # Class: DisjointSet
 
-Disjoint Set is a data structure that keeps track of a partition of a set into disjoint (non-overlapping) subsets.
+Disjoint Set (Union-Find) data structure with path compression and union by rank.
+Efficiently maintains a partition of elements into disjoint sets.
 
 ## Constructors
 
@@ -14,19 +15,26 @@ Disjoint Set is a data structure that keeps track of a partition of a set into d
 
 > **new DisjointSet**(`size`): [`DisjointSet`](DisjointSet.md)
 
+Creates a new DisjointSet data structure.
+Initially, each element is in its own singleton set.
+
 #### Parameters
 
 • **size**: `number`
 
-The size of the set.
+The number of elements in the set (0 to size-1)
 
 #### Returns
 
 [`DisjointSet`](DisjointSet.md)
 
+#### Throws
+
+If size is not positive
+
 #### Defined in
 
-[dataStructures/DisjointSet.ts:8](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L8)
+[dataStructures/DisjointSet.ts:13](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/DisjointSet.ts#L13)
 
 ## Methods
 
@@ -35,26 +43,27 @@ The size of the set.
 > **areInSameSet**(`element1`, `element2`): `boolean`
 
 Checks if two elements are in the same set.
+Uses path compression for efficiency.
 
 #### Parameters
 
 • **element1**: `number`
 
-The first element.
+First element
 
 • **element2**: `number`
 
-The second element.
+Second element
 
 #### Returns
 
 `boolean`
 
-True if the elements are in the same set, false otherwise.
+True if elements are in the same set
 
 #### Defined in
 
-[dataStructures/DisjointSet.ts:26](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L26)
+[dataStructures/DisjointSet.ts:33](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/DisjointSet.ts#L33)
 
 ***
 
@@ -62,17 +71,18 @@ True if the elements are in the same set, false otherwise.
 
 > **union**(`element1`, `element2`): `void`
 
-Unions two sets.
+Merges the sets containing the two elements.
+Uses union by rank for balanced trees.
 
 #### Parameters
 
 • **element1**: `number`
 
-The first element.
+First element
 
 • **element2**: `number`
 
-The second element.
+Second element
 
 #### Returns
 
@@ -80,4 +90,4 @@ The second element.
 
 #### Defined in
 
-[dataStructures/DisjointSet.ts:35](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/DisjointSet.ts#L35)
+[dataStructures/DisjointSet.ts:44](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/DisjointSet.ts#L44)

@@ -39,7 +39,7 @@ Returns the value at the head of the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:356](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L356)
+[dataStructures/LinkedList.ts:352](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L352)
 
 ***
 
@@ -57,7 +57,7 @@ Returns the element at the head of the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:365](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L365)
+[dataStructures/LinkedList.ts:361](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L361)
 
 ***
 
@@ -75,7 +75,7 @@ Returns the current length of the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:347](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L347)
+[dataStructures/LinkedList.ts:343](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L343)
 
 ***
 
@@ -93,7 +93,7 @@ Returns the value at the tail of the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:374](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L374)
+[dataStructures/LinkedList.ts:370](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L370)
 
 ***
 
@@ -111,7 +111,7 @@ Returns the element at the tail of the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:383](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L383)
+[dataStructures/LinkedList.ts:379](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L379)
 
 ## Methods
 
@@ -129,7 +129,7 @@ Allows the linked list to be iterable using `for...of` loops.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:416](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L416)
+[dataStructures/LinkedList.ts:412](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L412)
 
 ***
 
@@ -157,7 +157,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:122](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L122)
+[dataStructures/LinkedList.ts:118](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L118)
 
 ***
 
@@ -185,7 +185,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:314](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L314)
+[dataStructures/LinkedList.ts:310](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L310)
 
 ***
 
@@ -213,7 +213,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:94](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L94)
+[dataStructures/LinkedList.ts:90](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L90)
 
 ***
 
@@ -241,7 +241,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:325](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L325)
+[dataStructures/LinkedList.ts:321](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L321)
 
 ***
 
@@ -263,7 +263,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:56](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L56)
+[dataStructures/LinkedList.ts:52](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L52)
 
 ***
 
@@ -287,7 +287,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:66](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L66)
+[dataStructures/LinkedList.ts:62](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L62)
 
 ***
 
@@ -309,7 +309,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:18](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L18)
+[dataStructures/LinkedList.ts:14](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L14)
 
 ***
 
@@ -333,7 +333,7 @@ The value to be added.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:28](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L28)
+[dataStructures/LinkedList.ts:24](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L24)
 
 ***
 
@@ -351,7 +351,7 @@ Returns an iterator for the values in the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:392](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L392)
+[dataStructures/LinkedList.ts:388](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L388)
 
 ***
 
@@ -369,7 +369,7 @@ Returns an iterator for the elements in the linked list.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:403](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L403)
+[dataStructures/LinkedList.ts:399](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L399)
 
 ***
 
@@ -393,7 +393,7 @@ The index of the element to remove.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:240](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L240)
+[dataStructures/LinkedList.ts:236](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L236)
 
 ***
 
@@ -417,7 +417,7 @@ The element to be removed.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:213](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L213)
+[dataStructures/LinkedList.ts:209](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L209)
 
 ***
 
@@ -441,7 +441,7 @@ The index of the element to remove.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:250](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L250)
+[dataStructures/LinkedList.ts:246](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L246)
 
 ***
 
@@ -459,7 +459,7 @@ Removes the head element from the list and returns its value.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:148](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L148)
+[dataStructures/LinkedList.ts:144](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L144)
 
 ***
 
@@ -477,7 +477,7 @@ Removes the head element from the list and returns the element.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:157](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L157)
+[dataStructures/LinkedList.ts:153](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L153)
 
 ***
 
@@ -495,7 +495,7 @@ Removes the tail element from the list and returns its value.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:180](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L180)
+[dataStructures/LinkedList.ts:176](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L176)
 
 ***
 
@@ -513,7 +513,7 @@ Removes the tail element from the list and returns the element.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:189](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L189)
+[dataStructures/LinkedList.ts:185](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L185)
 
 ***
 
@@ -537,7 +537,7 @@ The index to search for.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:277](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L277)
+[dataStructures/LinkedList.ts:273](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L273)
 
 ***
 
@@ -561,7 +561,7 @@ The index to search for.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:287](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L287)
+[dataStructures/LinkedList.ts:283](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L283)
 
 ***
 
@@ -579,4 +579,4 @@ Converts the linked list to an array.
 
 #### Defined in
 
-[dataStructures/LinkedList.ts:425](https://github.com/vladbasin/algos/blob/fda865971d7b618faddb3d2c9e423105a63674ca/libs/algos/src/lib/dataStructures/LinkedList.ts#L425)
+[dataStructures/LinkedList.ts:421](https://github.com/vladbasin/algos/blob/896f4802dfe6dc549179fbc3b973d06095c49e3e/libs/algos/src/lib/dataStructures/LinkedList.ts#L421)
