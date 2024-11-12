@@ -52,4 +52,14 @@ describe('flipBit', () => {
   it('should return the original number if flipping a bit that is out of the effective range of the number', () => {
     expect(flipBit(15, 5)).toBe(47); // 1111 ^ 100000 = 101111 (47 in decimal)
   });
+
+  it('should throw TypeError for non-integer target', () => {
+    expect(() => flipBit(3.14, 1)).toThrow(TypeError);
+    expect(() => flipBit(3.14, 1)).toThrow('Target must be an integer');
+  });
+
+  it('should throw TypeError for non-integer bitIndex', () => {
+    expect(() => flipBit(5, 1.5)).toThrow(TypeError);
+    expect(() => flipBit(5, 1.5)).toThrow('Bit index must be an integer');
+  });
 });

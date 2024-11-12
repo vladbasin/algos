@@ -52,4 +52,14 @@ describe('isBitSet', () => {
     expect(isBitSet(target, 1)).toBe(false); // Bit 1 is not set (0)
     expect(isBitSet(target, 2)).toBe(true); // Bit 2 is set (1)
   });
+
+  it('should throw TypeError with correct error messages', () => {
+    expect(() => isBitSet(3.14, 1)).toThrow('Target must be an integer');
+    expect(() => isBitSet(1, 1.5)).toThrow('Bit index must be an integer');
+  });
+
+  it('should throw RangeError with correct error message', () => {
+    expect(() => isBitSet(1, -1)).toThrow('Bit index must be between 0 and 30 (inclusive), received: -1');
+    expect(() => isBitSet(1, 31)).toThrow('Bit index must be between 0 and 30 (inclusive), received: 31');
+  });
 });

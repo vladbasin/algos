@@ -42,4 +42,26 @@ describe('setBit', () => {
   it('should return the original number when the bit index is 0 on a positive number', () => {
     expect(setBit(15, 0)).toBe(15);
   });
+
+  it('should throw TypeError with correct error messages', () => {
+    expect(() => setBit(3.14, 1)).toThrow('Target must be an integer');
+    expect(() => setBit(1, 1.5)).toThrow('Bit index must be an integer');
+  });
+
+  it('should throw TypeError if number is not an integer', () => {
+    expect(() => setBit(3.14, 1)).toThrow(TypeError);
+    expect(() => setBit(NaN, 1)).toThrow(TypeError);
+  });
+
+  it('should throw TypeError if index is not an integer', () => {
+    expect(() => setBit(1, 1.5)).toThrow(TypeError);
+    expect(() => setBit(1, NaN)).toThrow(TypeError);
+  });
+
+  it('should throw TypeError if arguments are not numbers', () => {
+    // @ts-expect-error Testing invalid input
+    expect(() => setBit('1', 1)).toThrow(TypeError);
+    // @ts-expect-error Testing invalid input
+    expect(() => setBit(1, '1')).toThrow(TypeError);
+  });
 });

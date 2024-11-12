@@ -328,5 +328,14 @@ describe('BinarySearchTree', () => {
         expect(bst.toFullBinaryTreeArray()).toEqual([10, 5, 15, 3, 7, 12, undefined]);
       });
     });
+
+    describe('toString', () => {
+      it('should return a string representation of the tree', () => {
+        bst.add(10);
+        bst.add(5);
+        bst.add(15);
+        expect(bst.toString()).toEqual('10    \n5  15 ');
+      });
+    });
   });
 });
